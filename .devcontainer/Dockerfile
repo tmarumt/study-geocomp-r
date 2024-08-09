@@ -9,7 +9,7 @@ USER rstudio
 WORKDIR /home/rstudio
 
 RUN mkdir -p .cache/R/renv .cache/pip .julia .local/bin .cache/pydrive2fs && \
-    Rscript -e 'tinytex::install_tinytex()'
+    Rscript -e 'tinytex::install_tinytex(force = TRUE)'
 
 USER root
 
