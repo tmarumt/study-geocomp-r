@@ -1,4 +1,3 @@
-library(tidyverse)
 library(sf) # Chapter 2 で紹介したベクタデータパッケージ
 library(terra) # Chapter 2 で紹介したラスタデータパッケージ
 library(dplyr) # データフレーム操作用 tidyverseパッケージ
